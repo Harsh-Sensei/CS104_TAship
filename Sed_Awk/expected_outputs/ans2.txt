@@ -1,0 +1,73 @@
+1 Week_end,Indicator,High_industry,Value
+2 2019-05-05,Number of paid jobs - 34 days,Total,2090110
+3 2019-05-05,Number of paid jobs - 34 days,A Primary,95150
+4 2019-05-05,Number of paid jobs - 34 days,B Goods Producing,405050
+5 2019-05-05,Number of paid jobs - 34 days,C Services,1570740
+6 2019-05-05,Number of paid jobs - 34 days,Z No Match,19170
+7 2019-05-05,Number of paid jobs - 20 days,Total,1828160
+8 2019-05-05,Number of paid jobs - 20 days,A Primary,79880
+9 2019-05-05,Number of paid jobs - 20 days,B Goods Producing,344320
+10 2019-05-05,Number of paid jobs - 20 days,C Services,1389220
+11 2019-05-05,Number of paid jobs - 20 days,Z No Match,14730
+12 2019-05-05,Number of paid jobs - 6 days,Total,760760
+13 2019-05-05,Number of paid jobs - 6 days,A Primary,39410
+14 2019-05-05,Number of paid jobs - 6 days,B Goods Producing,247780
+15 2019-05-05,Number of paid jobs - 6 days,C Services,467730
+16 2019-05-05,Number of paid jobs - 6 days,Z No Match,5850
+17 2019-05-12,Number of paid jobs - 34 days,Total,2081300
+18 2019-05-12,Number of paid jobs - 34 days,A Primary,90210
+19 2019-05-12,Number of paid jobs - 34 days,B Goods Producing,399670
+20 2019-05-12,Number of paid jobs - 34 days,C Services,1574020
+21 2019-05-12,Number of paid jobs - 34 days,Z No Match,17400
+22 2019-05-12,Number of paid jobs - 20 days,Total,1821610
+23 2019-05-12,Number of paid jobs - 20 days,A Primary,77540
+24 2019-05-12,Number of paid jobs - 20 days,B Goods Producing,341110
+25 2019-05-12,Number of paid jobs - 20 days,C Services,1389260
+26 2019-05-12,Number of paid jobs - 20 days,Z No Match,13700
+27 2019-05-12,Number of paid jobs - 6 days,Total,781460
+28 2019-05-12,Number of paid jobs - 6 days,A Primary,36710
+29 2019-05-12,Number of paid jobs - 6 days,B Goods Producing,248760
+30 2019-05-12,Number of paid jobs - 6 days,C Services,490660
+31 2019-05-12,Number of paid jobs - 6 days,Z No Match,5320
+32 2019-05-19,Number of paid jobs - 34 days,Total,2097310
+33 2019-05-19,Number of paid jobs - 34 days,A Primary,92840
+34 2019-05-19,Number of paid jobs - 34 days,B Goods Producing,403320
+35 2019-05-19,Number of paid jobs - 34 days,C Services,1582150
+36 2019-05-19,Number of paid jobs - 34 days,Z No Match,19000
+37 2019-05-19,Number of paid jobs - 20 days,Total,1815900
+38 2019-05-19,Number of paid jobs - 20 days,A Primary,78170
+39 2019-05-19,Number of paid jobs - 20 days,B Goods Producing,341240
+40 2019-05-19,Number of paid jobs - 20 days,C Services,1382280
+41 2019-05-19,Number of paid jobs - 20 days,Z No Match,14200
+42 2019-05-19,Number of paid jobs - 6 days,Total,764420
+43 2019-05-19,Number of paid jobs - 6 days,A Primary,37580
+44 2019-05-19,Number of paid jobs - 6 days,B Goods Producing,246250
+45 2019-05-19,Number of paid jobs - 6 days,C Services,474910
+46 2019-05-19,Number of paid jobs - 6 days,Z No Match,5690
+47 2019-05-26,Number of paid jobs - 34 days,Total,2115180
+48 2019-05-26,Number of paid jobs - 34 days,A Primary,92510
+49 2019-05-26,Number of paid jobs - 34 days,B Goods Producing,404060
+50 2019-05-26,Number of paid jobs - 34 days,C Services,1598750
+51 2019-05-26,Number of paid jobs - 34 days,Z No Match,19860
+52 2019-05-26,Number of paid jobs - 20 days,Total,1840800
+53 2019-05-26,Number of paid jobs - 20 days,A Primary,77640
+54 2019-05-26,Number of paid jobs - 20 days,B Goods Producing,342170
+55 2019-05-26,Number of paid jobs - 20 days,C Services,1406540
+56 2019-05-26,Number of paid jobs - 20 days,Z No Match,14460
+57 2019-05-26,Number of paid jobs - 6 days,Total,791650
+58 2019-05-26,Number of paid jobs - 6 days,A Primary,38890
+59 2019-05-26,Number of paid jobs - 6 days,B Goods Producing,251440
+60 2019-05-26,Number of paid jobs - 6 days,C Services,495680
+61 2019-05-26,Number of paid jobs - 6 days,Z No Match,5630
+62 2019-06-02,Number of paid jobs - 34 days,Total,2130250
+63 2019-06-02,Number of paid jobs - 34 days,A Primary,92100
+64 2019-06-02,Number of paid jobs - 34 days,B Goods Producing,406040
+65 2019-06-02,Number of paid jobs - 34 days,C Services,1610150
+66 2019-06-02,Number of paid jobs - 34 days,Z No Match,21960
+67 2019-06-02,Number of paid jobs - 20 days,Total,1861190
+68 2019-06-02,Number of paid jobs - 20 days,A Primary,77570
+69 2019-06-02,Number of paid jobs - 20 days,B Goods Producing,344700
+70 2019-06-02,Number of paid jobs - 20 days,C Services,1422480
+71 2019-06-02,Number of paid jobs - 20 days,Z No Match,16450
+72 2019-06-02,Number of paid jobs - 6 days,Total,773460
+73 2019-06-02,Number of paid jobs - 6 days,A Primary,36490

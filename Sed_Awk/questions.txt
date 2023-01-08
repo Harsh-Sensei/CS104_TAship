@@ -1,0 +1,42 @@
+Q1. Print information of only directories in the current folder.
+Ans. ls -al | sed -n '/^d/ p'
+
+Q2. Print the first 73 lines of "employment.csv" with their line number at the start.
+Ans. awk -F, '{print NR, $0} NR==73{exit}' employment.csv
+
+Q3. Print only the values of all the records in "employment.csv"
+Ans. sed -n -r 's/.*,([0-9]*$)/\1/g p' employment.csv 
+
+Q4. Using the above output(preferably using pipe), add "@yahoo.co.in" to the end of all values.
+Ans. sed -n -r 's/.*,([0-9]*$)/\1/ p' employment.csv | sed -n -r 's/[0-9]*/&@yahoo.co.in/ p'
+
+Q5. Replace "Number of paid jobs - 20" to "Number of paid jobs : 20" for all records.
+Ans. sed -n -r 's/ - / : /g p' employment.csv 
+
+Q6. Find the sum of all values and append it to the end of the file("Total : <sum>").(might need an awk script file)
+Further append "Created by : <first_arg_to_bash_script>" the file using roll number as command line argument.
+Ans. Bash script: 
+#!/bin/bash
+awk -F, -v name="$1" '
+BEGIN {
+    total=0
+}
+{
+    total+=$4
+    print $0
+}
+END {
+    print "Total :", total
+    print "Created by: ", name
+}
+' < employment.csv
+
+Q7. Replace the entries in "High_industry" column with double quotes around the entry.
+(Note: Do not put double quotes around the column name)
+Ans. sed -n -r -e '1 p' -e '2,$ s/(.*),(.*),(.*),(.*)/\1,\2,"\3",\4/g p' employment.csv
+
+Q8. Remove the head of the file(do not print the first line) of "employment.csv". 
+Ans. sed -n -r '2,$ p' employment.csv
+
+Q9. Print records(remove the header) till the first occurence of a record having value < 50000.
+Ans. awk -F, '$4<95000 {exit}; NR>1 {print}' employment.csv 
