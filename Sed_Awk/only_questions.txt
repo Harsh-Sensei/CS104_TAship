@@ -1,0 +1,28 @@
+Q1. Print information of only directories in the current folder.
+
+
+Q2. Print the first 73 lines of "employment.csv" with their line number at the start of each record.
+
+
+Q3. Print only the values of all the records in "employment.csv"
+
+
+Q4. Using the above output(preferably using pipe), add "@yahoo.co.in" to the end of all values.
+
+
+Q5. Replace "Number of paid jobs - 20" to "Number of paid jobs : 20" for all records.
+
+
+Q6. Find the sum of all values and append it to the end of the file("Total : <sum>").(might need an bash script file)
+Further append "Created by : <first_arg_to_bash_script>" the file using roll number as command line argument.
+
+
+Q7. Replace the entries in "High_industry" column with double quotes around the entry.
+(Note: Do not put double quotes around the column name)
+
+
+Q8. Remove the head of the file(do not print the first line) of "employment.csv". 
+
+
+Q9. Print records(remove the header) till the first occurence of a record having value < 50000.
+
