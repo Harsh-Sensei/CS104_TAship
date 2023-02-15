@@ -1,0 +1,15 @@
+Often when reading data from a .csv file you need to ensure that particular column of the 
+tabular data is read as string or change some character to avoid ambiguity later.
+The file "employment.csv" has a column named "Indicator" which 
+requires to read as string and needs some modification.
+
+Task : Replace all entries <entry> of column "Indicator" to <"entry">, (that is, double quotes 
+around the entry) and replace all '-' in the record by ':'. 
+Yield the modified file to "output.txt".
+
+Eg : 
+Input -> 2019-05-05,Number of paid jobs - 20 days,Total,1828160 
+Output -> 2019-05-05,"Number of paid jobs : 20 days",Total,1828160 
+
+Usage : 
+script.sh > output.txt

@@ -1,0 +1,21 @@
+After using quickly finishing your python script you realize that instead of "print" you have
+written "printf" to yield strings to the standard output(terminal). Seems like you were not using 
+good IDE(seed for following labs). 
+
+Task : Given the file test.py, you need to replace all instances of "printf" to "print".
+You need to ensure that only those instances of "printf" are replaced where it is used a function.
+
+Eg : 
+Input -> 
+printf("eren")
+printf = 33
+htgprintf("mikasa")
+
+Output -> 
+print("eren")
+printf = 33
+htgprintf("mikasa")
+
+Note : You need to take filename as argument to bash script
+Usage : 
+script.sh <filename> > output.txt

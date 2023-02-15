@@ -1,0 +1,4 @@
+2019-05-05,Number of paid jobs - 34 days,Total,2090110
+2019-05-05,Number of paid jobs - 34 days,A Primary,95150
+2019-05-05,Number of paid jobs - 34 days,B Goods Producing,405050
+2019-05-05,Number of paid jobs - 34 days,C Services,1570740

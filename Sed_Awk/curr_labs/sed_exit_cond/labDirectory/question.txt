@@ -1,0 +1,25 @@
+Suppose you want all records only till a record which satisfies a certain condition. This may 
+be line number, value of a field, etc.
+
+Task : Given the file "employment.csv" print all the records till first occurence of a record having value 
+in the "Value" column < 50000.
+
+Eg : 
+Input -> 
+Week_end,Indicator,High_industry,Value
+2019-05-05,Number of paid jobs - 34 days,Total,2090110
+2019-05-05,Number of paid jobs - 34 days,A Primary,95150
+....
+2019-05-05,Number of paid jobs - 34 days,B Goods Producing,20000
+....
+
+Output -> 
+Week_end,Indicator,High_industry,Value
+2019-05-05,Number of paid jobs - 34 days,Total,2090110
+2019-05-05,Number of paid jobs - 34 days,A Primary,95150
+....
+2019-05-05,Number of paid jobs - 34 days,B Goods Producing,20000
+<rest not printed>
+
+Usage : 
+script.sh > output.txt

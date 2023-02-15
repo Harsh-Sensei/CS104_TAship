@@ -1,0 +1,21 @@
+{
+    "data": [
+        {
+            "testid": "1",
+            "status": "success",
+            "score": 14,
+            "message": {
+                "testcase1ExitStaus": 1,
+                "testcase1Result": 2,
+                "testcase2ExitStaus": 1,
+                "testcase2Result": 2,
+                "testcase3ExitStaus": 0,
+                "testcase3Result": 2,
+                "testcase4ExitStaus": 1,
+                "testcase4Result": 2,
+                "testcase5ExitStaus": 1,
+                "testcase5Result": 2
+            }
+        }
+    ]
+}

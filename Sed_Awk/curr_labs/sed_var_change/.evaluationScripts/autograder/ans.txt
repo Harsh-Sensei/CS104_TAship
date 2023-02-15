@@ -1,0 +1,2 @@
+#!/bin/bash
+sed -r 's/(\bprintf)\(/print(/g' $1  > output.txt 

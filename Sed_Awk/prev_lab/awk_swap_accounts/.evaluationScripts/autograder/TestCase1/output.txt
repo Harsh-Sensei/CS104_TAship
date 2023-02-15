@@ -1,0 +1,6 @@
+UserID Designation Name loginShell
+10001 manager ajay /bin/false
+1001 clerk sunil /bin/false
+101 manager varun Valid
+60123 manager amit /bin/false
+401 peon tarun Valid

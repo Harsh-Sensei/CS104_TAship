@@ -1,0 +1,2 @@
+#!/bin/bash
+awk -F, '$4<20000 {exit}; NR>1 {print}' employment.csv > output.txt

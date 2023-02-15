@@ -1,0 +1,23 @@
+Data aggregation is an important task on databases in order to represent a data using 
+few numbers(total, average, etc.).
+
+Task : Given the data in "employment.csv" you have to find sum of all entries in "Values" 
+and append it to the end of the file("Total : <sum>").Further append "Created by : <first_arg_to_bash_script>" the file.
+Also REMOVE the header of the file in your output.
+Eg : 
+Input -> 
+Week_end,Indicator,High_industry,Value
+2019-05-05,Number of paid jobs - 34 days,Total,2090110
+2019-05-05,Number of paid jobs - 34 days,A Primary,95150
+2019-05-05,Number of paid jobs - 34 days,B Goods Producing,405050
+
+Output -> 
+Week_end,Indicator,High_industry,Value
+2019-05-05,Number of paid jobs - 34 days,Total,2090110
+2019-05-05,Number of paid jobs - 34 days,A Primary,95150
+2019-05-05,Number of paid jobs - 34 days,B Goods Producing,405050
+Total : <sum of values>
+Created by : <name given command line arg>
+
+Usage : 
+script.sh > output.txt

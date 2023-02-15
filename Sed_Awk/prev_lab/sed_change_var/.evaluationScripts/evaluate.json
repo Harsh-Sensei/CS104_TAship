@@ -1,0 +1,39 @@
+{
+    "data": [
+        {
+            "status": "success", 
+            "message": "Correct output.", 
+            "score": 1, 
+            "testid": 1, 
+            "maximum marks": 1
+        }, 
+        {
+            "status": "success", 
+            "message": "Correct output.", 
+            "score": 1, 
+            "testid": 2, 
+            "maximum marks": 1
+        }, 
+        {
+            "status": "success", 
+            "message": "Correct output.", 
+            "score": 1, 
+            "testid": 3, 
+            "maximum marks": 1
+        }, 
+        {
+            "status": "success", 
+            "message": "Correct output.", 
+            "score": 1, 
+            "testid": 4, 
+            "maximum marks": 1
+        }, 
+        {
+            "status": "success", 
+            "message": "Correct output.", 
+            "score": 1, 
+            "testid": 5, 
+            "maximum marks": 1
+        }
+    ]
+}

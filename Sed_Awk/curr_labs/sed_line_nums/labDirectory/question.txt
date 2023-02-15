@@ -1,0 +1,26 @@
+Ever felt the requirement of copying contents of a script or a ".csv" along with line numbers??
+(even if not, you will need it here ;) ) 
+
+Task : You are given a "employment.csv" file and you need to modify the file to have line numbers.
+(You might need to pipe output of one sed command to another).
+Well, this is somewhat boring..., let's REMOVE the header of the file and print only 
+entries of "High_industry" and "Value", separated by ':' and double quotes
+around entries of "High_industry" (see example for clarity)
+You are allowed to use pipe('|') but brownie points for not using it.
+
+Eg : 
+Input -> 
+Week_end,Indicator,High_industry,Value
+2019-05-05,Number of paid jobs - 34 days,Total,2090110
+2019-05-05,Number of paid jobs - 34 days,A Primary,95150
+2019-05-05,Number of paid jobs - 34 days,B Goods Producing,405050
+....
+
+Output -> 
+1 "Total":2090110
+2 "A Primary":95150
+3 "B Goods Producing":405050
+....
+
+Usage : 
+script.sh > output.txt
