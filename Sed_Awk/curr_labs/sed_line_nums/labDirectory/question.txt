@@ -6,7 +6,7 @@ Task : You are given a "employment.csv" file and you need to modify the file to 
 Well, this is somewhat boring..., let's REMOVE the header of the file and print only 
 entries of "High_industry" and "Value", separated by ':' and double quotes
 around entries of "High_industry" (see example for clarity)
-You are allowed to use pipe('|') but brownie points for not using it.
+You are allowed to use pipe('|') for this activity but brownie points for not using it.
 
 Eg : 
 Input -> 

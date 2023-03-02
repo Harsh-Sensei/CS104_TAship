@@ -1,0 +1,2 @@
+#!/bin/bash
+sed -n -r -e '/^\s*if/{p; :loop n; p; /else/q; b loop}' $1

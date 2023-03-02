@@ -1,0 +1,259 @@
+1) awk_email
+Question:
+You have data of some students in university and being a database administrator you are required to
+add a column to the given "students.csv" file for generating new email ids of the students.
+
+Task : You are given "students.csv" file and you have to append a column named "Email-ID"
+to the database. The entries in email id are formed as:
+<firstname><lastname>@surveycorps.com
+
+Eg : 
+Input -> 
+Student ID,First Name,Middle Name,Last Name
+1001,Luke,Porter,Baxley
+1002,Marnie,Gayle,Lemmons
+
+Output -> 
+Student ID,First Name,Middle Name,Last Name,Email-ID
+1001,Luke,Porter,Baxley,LukeBaxley@surveycorps.com
+1002,Marnie,Gayle,Lemmons,MarnieLemmons@surveycorps.com
+
+Warning: Take care of spaces when using default awk configuration.
+
+Usage : 
+script.sh > output.txt
+
+Ans)
+#!/bin/bash
+awk -F, '
+BEGIN {
+    OFS="";
+}
+{
+    if (NR==1){
+        print $0,",Email-ID";
+    }
+    if (NR>1){
+        print $0,",",$2$4,"\@surveycorps.com";
+    }
+}
+END {
+}
+' < students.csv
+
+Concepts)
+Setting OFS and F
+Adding column
+
+========================================================
+
+Q2) awk_sum
+Question)
+Data aggregation is an important task on databases in order to represent a data using 
+few numbers(total, average, etc.). Awk can be use for such aggregating techniques especially in 
+structured data like csv files.
+
+Task : Given the data in "employment.csv" you have to find sum of all entries in "Values" 
+and append it to the end of the file("Net : <sum>") and sum for each distinct entry in "High_industry"
+in the format ("entry_name : <sum>").
+After evaluating all <sum>s and printing them, append "Created by : <first_arg_to_bash_script>" the file.
+Separate the above records from the original records using 5 '='
+Eg : 
+Input -> 
+Week_end,Indicator,High_industry,Value
+2019-05-05,Number of paid jobs - 34 days,Total,2090110
+2019-05-05,Number of paid jobs - 34 days,A Primary,95150
+2019-05-05,Number of paid jobs - 34 days,B Goods Producing,405050
+
+Output -> 
+Week_end,Indicator,High_industry,Value
+2019-05-05,Number of paid jobs - 34 days,Total,2090110
+2019-05-05,Number of paid jobs - 34 days,A Primary,95150
+2019-05-05,Number of paid jobs - 34 days,B Goods Producing,405050
+Net : <sum of all entries in Value>
+Total : <sum of entries in Value having High_industry as Total>
+...
+Created by : <name given command line arg>
+
+Note : 'Total' is an entry in High_industry, do not confuse it with net total.  
+Usage : 
+script.sh > output.txt
+
+Ans)
+#!/bin/bash
+awk -F, -v name="$1" '
+BEGIN {
+    total=0
+}
+{
+    total+=$4
+    indiv[$3]+=$4
+    print $0
+}
+END {
+    print "====="
+    print "Net :", total
+    for(i in indiv)
+    {
+        print i, ":", indiv[i] 
+    }
+    print "Created by :", name
+}
+' < employment.csv
+
+Concepts)
+Arrays in awk
+Including variables in awk
+
+
+=====================================================
+3) sed_exit_cond
+Imagine a situation when you want to print all lines between "if" and "else" of some script
+that you would like to debug. Quite certainly, you would rather open that file and debug instead but 
+lets do it with sed instead!!
+
+Task : Given the file (whose name is to be taken as command line argument to the bash script "script.sh")
+you have to print all lines between the first occurence of "if" and "else" in the file. 
+Consider the example below for clarity.
+
+Eg : 
+Input -> 
+def main():
+    x = [y for y in lst if y < 6] 
+    if n == m:
+        print("Like comics?")
+    if a == b:
+        print("Asterix and Obelix")
+    else:
+        pass
+    if g == h:
+        print("Are friends?")
+    else:
+        pass
+
+Output -> 
+    if n == m:
+        print("Like comics?")
+    if a == b:
+        print("Asterix and Obelix")
+    else:
+
+Note : "else:" is required to be print. Also note that only "if"s starting with indentation 
+are considered(if inside list[] is not considered). 
+
+Usage : 
+script.sh <filename> > output.txt
+
+Ans)
+#!/bin/bash
+sed -n -r -e '/^\s*if/{p; :loop n; p; /else/q; b loop}' $1
+
+Concepts)
+Loop in sed
+Exit in sed
+
+=============================================================
+
+4) sed_line_nums
+Ever felt the requirement of copying contents of a script or a ".csv" along with line numbers??
+(even if not, you will need it here ;) ) 
+
+Task : You are given a "employment.csv" file and you need to modify the file to have line numbers.
+(You might need to pipe output of one sed command to another).
+Well, this is somewhat boring..., let's REMOVE the header of the file and print only 
+entries of "High_industry" and "Value", separated by ':' and double quotes
+around entries of "High_industry" (see example for clarity)
+You are allowed to use pipe('|') for this activity but brownie points for not using it.
+
+Eg : 
+Input -> 
+Week_end,Indicator,High_industry,Value
+2019-05-05,Number of paid jobs - 34 days,Total,2090110
+2019-05-05,Number of paid jobs - 34 days,A Primary,95150
+2019-05-05,Number of paid jobs - 34 days,B Goods Producing,405050
+....
+
+Output -> 
+1 "Total":2090110
+2 "A Primary":95150
+3 "B Goods Producing":405050
+....
+
+Usage : 
+script.sh > output.txt
+
+Ans)
+#!/bin/bash
+sed -r -e '1d' -e 's/(.*),(.*),(.*),(.*)/"\3":\4/g' employment.csv | sed -e '=' | sed 'N;s/\n/ /' > output.txt
+
+Concepts)
+Deletion in sed
+Capture group in regex to fetch columns
+Substitution in sed
+
+==================================================================
+
+5) sed_quotes
+
+Question)
+Often when reading data from a .csv file you need to ensure that particular column of the 
+tabular data is read as string or change some character to avoid ambiguity later.
+The file "employment.csv" has a column named "Indicator" which 
+requires to read as string and needs some modification.
+
+Task : Replace all entries <entry> of column "Indicator" to <"entry">, (that is, double quotes 
+around the entry) and replace all '-' in the record by ':'. 
+Yield the modified file to "output.txt".
+
+Eg : 
+Input -> 2019-05-05,Number of paid jobs - 20 days,Total,1828160 
+Output -> 2019-05-05,"Number of paid jobs : 20 days",Total,1828160 
+
+Usage : 
+script.sh > output.txt
+
+Ans)
+#!/bin/bash
+sed -n -r -e '1 p' -e '2,$ s/ - / : /g' -e '2,$ s/(.*),(.*),(.*),(.*)/\1,\2,"\3",\4/g p' employment.csv > output.txt
+
+Concepts)
+Substitution in sed
+Capture groups in regex to fetch columns
+
+
+=================================================================
+
+6) sed_var_change
+
+Question)
+After using quickly finishing your python script you realize that instead of "print" you have
+written "printf" to yield strings to the standard output(terminal). Seems like you were not using 
+good IDE(seed for following labs). 
+
+Task : Given the file test.py, you need to replace all instances of "printf" to "print".
+You need to ensure that only those instances of "printf" are replaced where it is used a function.
+
+Eg : 
+Input -> 
+printf("eren")
+printf = 33
+htgprintf("mikasa")
+
+Output -> 
+print("eren")
+printf = 33
+htgprintf("mikasa")
+
+Note : You need to take filename as argument to bash script
+Usage : 
+script.sh <filename> > output.txt
+
+Ans)
+#!/bin/bash
+sed -r 's/(\bprintf)\s*\(/print(/g' $1  > output.txt 
+
+Concepts)
+Spaces and word boundaries in regex
+Global Substitution in sed
+
+===========================================================

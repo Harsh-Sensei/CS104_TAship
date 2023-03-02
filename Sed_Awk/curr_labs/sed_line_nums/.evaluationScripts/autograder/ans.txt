@@ -1,2 +1,0 @@
-#!/bin/bash
-sed -r -e '1d' -e 's/(.*),(.*),(.*),(.*)/"\3":\4/g' employment.csv | sed -e '=' | sed 'N;s/\n/ /' > output.txt

@@ -1,25 +1,35 @@
-Suppose you want all records only till a record which satisfies a certain condition. This may 
-be line number, value of a field, etc.
+Imagine a situation when you want to print all lines between "if" and "else" of some script
+that you would like to debug. Quite certainly, you would rather open that file and debug instead but 
+lets do it with sed instead!!
 
-Task : Given the file "employment.csv" print all the records till first occurence of a record having value 
-in the "Value" column < 50000.
+Task : Given the file (whose name is to be taken as command line argument to the bash script "script.sh")
+you have to print all lines between the first occurence of "if" and "else" in the file. 
+Consider the example below for clarity.
 
 Eg : 
 Input -> 
-Week_end,Indicator,High_industry,Value
-2019-05-05,Number of paid jobs - 34 days,Total,2090110
-2019-05-05,Number of paid jobs - 34 days,A Primary,95150
-....
-2019-05-05,Number of paid jobs - 34 days,B Goods Producing,20000
-....
+def main():
+    x = [y for y in lst if y < 6] 
+    if n == m:
+        print("Like comics?")
+    if a == b:
+        print("Asterix and Obelix")
+    else:
+        pass
+    if g == h:
+        print("Are friends?")
+    else:
+        pass
 
 Output -> 
-Week_end,Indicator,High_industry,Value
-2019-05-05,Number of paid jobs - 34 days,Total,2090110
-2019-05-05,Number of paid jobs - 34 days,A Primary,95150
-....
-2019-05-05,Number of paid jobs - 34 days,B Goods Producing,20000
-<rest not printed>
+    if n == m:
+        print("Like comics?")
+    if a == b:
+        print("Asterix and Obelix")
+    else:
+
+Note : "else:" is required to be print. Also note that only "if"s starting with indentation 
+are considered(if inside list[] is not considered). 
 
 Usage : 
-script.sh > output.txt
+script.sh <filename> > output.txt

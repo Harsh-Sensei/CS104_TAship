@@ -1,9 +1,12 @@
 Data aggregation is an important task on databases in order to represent a data using 
-few numbers(total, average, etc.).
+few numbers(total, average, etc.). Awk can be use for such aggregating techniques especially in 
+structured data like csv files.
 
 Task : Given the data in "employment.csv" you have to find sum of all entries in "Values" 
-and append it to the end of the file("Total : <sum>").Further append "Created by : <first_arg_to_bash_script>" the file.
-Also REMOVE the header of the file in your output.
+and append it to the end of the file("Net : <sum>") and sum for each distinct entry in "High_industry"
+in the format ("entry_name : <sum>").
+After evaluating all <sum>s and printing them, append "Created by : <first_arg_to_bash_script>" the file.
+Separate the above records from the original records using 5 '='
 Eg : 
 Input -> 
 Week_end,Indicator,High_industry,Value
@@ -16,8 +19,11 @@ Week_end,Indicator,High_industry,Value
 2019-05-05,Number of paid jobs - 34 days,Total,2090110
 2019-05-05,Number of paid jobs - 34 days,A Primary,95150
 2019-05-05,Number of paid jobs - 34 days,B Goods Producing,405050
-Total : <sum of values>
+Net : <sum of all entries in Value>
+Total : <sum of entries in Value having High_industry as Total>
+...
 Created by : <name given command line arg>
 
+Note : 'Total' is an entry in High_industry, do not confuse it with net total.  
 Usage : 
 script.sh > output.txt
