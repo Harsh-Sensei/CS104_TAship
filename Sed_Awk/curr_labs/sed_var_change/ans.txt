@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -r 's/(\bprintf)\s*\(/print(/g' $1  > output.txt 
+sed -r 's/(\bprintf)\s*\(/pprint(/g' $1  > output.txt 

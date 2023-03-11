@@ -8,13 +8,14 @@ to the database. The entries in email id are formed as:
 Eg : 
 Input -> 
 Student ID,First Name,Middle Name,Last Name
-1001,Luke,Porter,Baxley
-1002,Marnie,Gayle,Lemmons
+1001,Aarav,Rohit,Patel
+1002,Ishani,Rani,Sharma
 
 Output -> 
 Student ID,First Name,Middle Name,Last Name,Email-ID
-1001,Luke,Porter,Baxley,LukeBaxley@surveycorps.com
-1002,Marnie,Gayle,Lemmons,MarnieLemmons@surveycorps.com
+1001,Aarav,Rohit,Patel,AaravPatel@surveycorps.com
+1002,Ishani,Rani,Sharma,IshaniSharma@surveycorps.com
+
 
 Warning: Take care of spaces when using default awk configuration.
 

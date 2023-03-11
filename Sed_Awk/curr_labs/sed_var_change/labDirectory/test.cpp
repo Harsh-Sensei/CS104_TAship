@@ -13,16 +13,15 @@ void pprint(string s){
 
 int main(int argc, char* argv[])
 {   
-    int megaprintf = 73;
     if(argc < 2)
     {
-        pprint("Wrong input");
+        printf("Wrong input");
         exit(1);
     }
-    pprint("Printing #\n");
+    printf("Printing #\n");
     for(int i=0; i<argc; i++)
     {
-        pprint("#\n");
+        printf("#\n");
     }    
     return 0;
 }

@@ -8,8 +8,8 @@ around the entry) and replace all '-' in the record by ':'.
 Yield the modified file to "output.txt".
 
 Eg : 
-Input -> 2019-05-05,Number of paid jobs - 20 days,Total,1828160 
-Output -> 2019-05-05,"Number of paid jobs : 20 days",Total,1828160 
+Input -> 2019-05-05,Number of paid jobs - 20 days,Film,1828160 
+Output -> 2019-05-05,"Number of paid jobs : 20 days",Film,1828160 
 
 Usage : 
 script.sh > output.txt

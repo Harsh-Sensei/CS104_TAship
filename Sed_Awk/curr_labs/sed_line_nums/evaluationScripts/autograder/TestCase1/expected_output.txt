@@ -1,549 +1,549 @@
-1 "Total":2090110
-2 "A Primary":95150
-3 "B Goods Producing":405050
-4 "C Services":1570740
-5 "Z No Match":19170
-6 "Total":1828160
-7 "A Primary":79880
-8 "B Goods Producing":344320
-9 "C Services":1389220
-10 "Z No Match":14730
-11 "Total":760760
-12 "A Primary":39410
-13 "B Goods Producing":247780
-14 "C Services":467730
-15 "Z No Match":5850
-16 "Total":2081300
-17 "A Primary":90210
-18 "B Goods Producing":399670
-19 "C Services":1574020
-20 "Z No Match":17400
-21 "Total":1821610
-22 "A Primary":77540
-23 "B Goods Producing":341110
-24 "C Services":1389260
-25 "Z No Match":13700
-26 "Total":781460
-27 "A Primary":36710
-28 "B Goods Producing":248760
-29 "C Services":490660
-30 "Z No Match":5320
-31 "Total":2097310
-32 "A Primary":92840
-33 "B Goods Producing":403320
-34 "C Services":1582150
-35 "Z No Match":19000
-36 "Total":1815900
-37 "A Primary":78170
-38 "B Goods Producing":341240
-39 "C Services":1382280
-40 "Z No Match":14200
-41 "Total":764420
-42 "A Primary":37580
-43 "B Goods Producing":246250
-44 "C Services":474910
-45 "Z No Match":5690
-46 "Total":2115180
-47 "A Primary":92510
-48 "B Goods Producing":404060
-49 "C Services":1598750
-50 "Z No Match":19860
-51 "Total":1840800
-52 "A Primary":77640
-53 "B Goods Producing":342170
-54 "C Services":1406540
-55 "Z No Match":14460
-56 "Total":791650
-57 "A Primary":38890
-58 "B Goods Producing":251440
-59 "C Services":495680
-60 "Z No Match":5630
-61 "Total":2130250
-62 "A Primary":92100
-63 "B Goods Producing":406040
-64 "C Services":1610150
-65 "Z No Match":21960
-66 "Total":1861190
-67 "A Primary":77570
-68 "B Goods Producing":344700
-69 "C Services":1422480
-70 "Z No Match":16450
-71 "Total":773460
-72 "A Primary":36490
-73 "B Goods Producing":251150
-74 "C Services":479500
-75 "Z No Match":6320
-76 "Total":2098050
-77 "A Primary":87550
-78 "B Goods Producing":401550
-79 "C Services":1586790
-80 "Z No Match":22160
-81 "Total":1855820
-82 "A Primary":75510
-83 "B Goods Producing":344530
-84 "C Services":1417940
-85 "Z No Match":17840
-86 "Total":763930
-87 "A Primary":35580
-88 "B Goods Producing":250230
-89 "C Services":471700
-90 "Z No Match":6420
-91 "Total":2107880
-92 "A Primary":88060
-93 "B Goods Producing":401570
-94 "C Services":1594370
-95 "Z No Match":23880
-96 "Total":1851010
-97 "A Primary":75080
-98 "B Goods Producing":342580
-99 "C Services":1414410
-100 "Z No Match":18930
-101 "Total":788770
-102 "A Primary":36620
-103 "B Goods Producing":251580
-104 "C Services":493270
-105 "Z No Match":7310
-106 "Total":2114400
-107 "A Primary":88660
-108 "B Goods Producing":402330
-109 "C Services":1598080
-110 "Z No Match":25330
-111 "Total":1847560
-112 "A Primary":75860
-113 "B Goods Producing":343250
-114 "C Services":1407740
-115 "Z No Match":20710
-116 "Total":769490
-117 "A Primary":36290
-118 "B Goods Producing":248630
-119 "C Services":475600
-120 "Z No Match":8980
-121 "Total":2119540
-122 "A Primary":89330
-123 "B Goods Producing":401650
-124 "C Services":1601450
-125 "Z No Match":27100
-126 "Total":1851380
-127 "A Primary":76170
-128 "B Goods Producing":342220
-129 "C Services":1410730
-130 "Z No Match":22260
-131 "Total":765480
-132 "A Primary":37220
-133 "B Goods Producing":249260
-134 "C Services":470520
-135 "Z No Match":8480
-136 "Total":2101410
-137 "A Primary":87580
-138 "B Goods Producing":400860
-139 "C Services":1590110
-140 "Z No Match":22870
-141 "Total":1848220
-142 "A Primary":75240
-143 "B Goods Producing":342960
-144 "C Services":1411050
-145 "Z No Match":18970
-146 "Total":768350
-147 "A Primary":35660
-148 "B Goods Producing":248370
-149 "C Services":475290
-150 "Z No Match":9040
-151 "Total":2105750
-152 "A Primary":88990
-153 "B Goods Producing":400690
-154 "C Services":1591780
-155 "Z No Match":24290
-156 "Total":1843920
-157 "A Primary":76380
-158 "B Goods Producing":341660
-159 "C Services":1405800
-160 "Z No Match":20080
-161 "Total":768500
-162 "A Primary":36130
-163 "B Goods Producing":249960
-164 "C Services":472290
-165 "Z No Match":10120
-166 "Total":2123440
-167 "A Primary":89960
-168 "B Goods Producing":402360
-169 "C Services":1603410
-170 "Z No Match":27710
-171 "Total":1861580
-172 "A Primary":76080
-173 "B Goods Producing":342720
-174 "C Services":1420080
-175 "Z No Match":22710
-176 "Total":771600
-177 "A Primary":36060
-178 "B Goods Producing":248050
-179 "C Services":474680
-180 "Z No Match":12810
-181 "Total":2138080
-182 "A Primary":90930
-183 "B Goods Producing":402480
-184 "C Services":1613950
-185 "Z No Match":30720
-186 "Total":1878500
-187 "A Primary":76940
-188 "B Goods Producing":343050
-189 "C Services":1434160
-190 "Z No Match":24360
-191 "Total":779310
-192 "A Primary":35840
-193 "B Goods Producing":250750
-194 "C Services":479070
-195 "Z No Match":13660
-196 "Total":2149340
-197 "A Primary":91390
-198 "B Goods Producing":404350
-199 "C Services":1620190
-200 "Z No Match":33410
-201 "Total":1873450
-202 "A Primary":76940
-203 "B Goods Producing":343150
-204 "C Services":1425590
-205 "Z No Match":27780
-206 "Total":781100
-207 "A Primary":36030
-208 "B Goods Producing":250140
-209 "C Services":479850
-210 "Z No Match":15080
-211 "Total":2131690
-212 "A Primary":90530
-213 "B Goods Producing":400900
-214 "C Services":1609140
-215 "Z No Match":31130
-216 "Total":1852270
-217 "A Primary":77740
-218 "B Goods Producing":342530
-219 "C Services":1405400
-220 "Z No Match":26600
-221 "Total":799670
-222 "A Primary":36780
-223 "B Goods Producing":249940
-224 "C Services":500000
-225 "Z No Match":12950
-226 "Total":2139890
-227 "A Primary":90340
-228 "B Goods Producing":400550
-229 "C Services":1617040
-230 "Z No Match":31960
-231 "Total":1883740
-232 "A Primary":77020
-233 "B Goods Producing":342350
-234 "C Services":1437210
-235 "Z No Match":27160
-236 "Total":799520
-237 "A Primary":35880
-238 "B Goods Producing":249910
-239 "C Services":497180
-240 "Z No Match":16550
-241 "Total":2145780
-242 "A Primary":91990
-243 "B Goods Producing":402040
-244 "C Services":1619840
-245 "Z No Match":31910
-246 "Total":1889700
-247 "A Primary":78600
-248 "B Goods Producing":342760
-249 "C Services":1441220
-250 "Z No Match":27120
-251 "Total":796980
-252 "A Primary":37190
-253 "B Goods Producing":252880
-254 "C Services":491010
-255 "Z No Match":15900
-256 "Total":2142950
-257 "A Primary":92840
-258 "B Goods Producing":403430
-259 "C Services":1611940
-260 "Z No Match":34740
-261 "Total":1877380
-262 "A Primary":78470
-263 "B Goods Producing":343150
-264 "C Services":1426340
-265 "Z No Match":29420
-266 "Total":808180
-267 "A Primary":36020
-268 "B Goods Producing":251240
-269 "C Services":502530
-270 "Z No Match":18390
-271 "Total":2108820
-272 "A Primary":92050
-273 "B Goods Producing":400160
-274 "C Services":1585680
-275 "Z No Match":30920
-276 "Total":1856420
-277 "A Primary":78870
-278 "B Goods Producing":343440
-279 "C Services":1407590
-280 "Z No Match":26520
-281 "Total":786700
-282 "A Primary":35920
-283 "B Goods Producing":251530
-284 "C Services":482870
-285 "Z No Match":16380
-286 "Total":2116540
-287 "A Primary":93400
-288 "B Goods Producing":401400
-289 "C Services":1591690
-290 "Z No Match":30050
-291 "Total":1852980
-292 "A Primary":76750
-293 "B Goods Producing":343870
-294 "C Services":1407230
-295 "Z No Match":25130
-296 "Total":788900
-297 "A Primary":33850
-298 "B Goods Producing":253160
-299 "C Services":487160
-300 "Z No Match":14730
-301 "Total":2145120
-302 "A Primary":94590
-303 "B Goods Producing":403780
-304 "C Services":1616440
-305 "Z No Match":30310
-306 "Total":1853970
-307 "A Primary":75730
-308 "B Goods Producing":344160
-309 "C Services":1408970
-310 "Z No Match":25110
-311 "Total":781470
-312 "A Primary":32360
-313 "B Goods Producing":251440
-314 "C Services":483460
-315 "Z No Match":14200
-316 "Total":2127060
-317 "A Primary":93460
-318 "B Goods Producing":403360
-319 "C Services":1599260
-320 "Z No Match":30970
-321 "Total":1841710
-322 "A Primary":74850
-323 "B Goods Producing":343820
-324 "C Services":1397250
-325 "Z No Match":25790
-326 "Total":782680
-327 "A Primary":30930
-328 "B Goods Producing":252120
-329 "C Services":485080
-330 "Z No Match":14550
-331 "Total":2160420
-332 "A Primary":95200
-333 "B Goods Producing":407000
-334 "C Services":1622670
-335 "Z No Match":35540
-336 "Total":1876640
-337 "A Primary":75760
-338 "B Goods Producing":346360
-339 "C Services":1426360
-340 "Z No Match":28150
-341 "Total":786860
-342 "A Primary":31560
-343 "B Goods Producing":253000
-344 "C Services":485570
-345 "Z No Match":16730
-346 "Total":2156540
-347 "A Primary":95070
-348 "B Goods Producing":404760
-349 "C Services":1626050
-350 "Z No Match":30660
-351 "Total":1885780
-352 "A Primary":77260
-353 "B Goods Producing":347180
-354 "C Services":1438300
-355 "Z No Match":23040
-356 "Total":789630
-357 "A Primary":32640
-358 "B Goods Producing":255920
-359 "C Services":488040
-360 "Z No Match":13020
-361 "Total":2165290
-362 "A Primary":97720
-363 "B Goods Producing":406350
-364 "C Services":1629980
-365 "Z No Match":31230
-366 "Total":1899370
-367 "A Primary":79040
-368 "B Goods Producing":346540
-369 "C Services":1452760
-370 "Z No Match":21030
-371 "Total":794240
-372 "A Primary":34200
-373 "B Goods Producing":255880
-374 "C Services":493220
-375 "Z No Match":10950
-376 "Total":2168890
-377 "A Primary":99080
-378 "B Goods Producing":406540
-379 "C Services":1633950
-380 "Z No Match":29320
-381 "Total":1903550
-382 "A Primary":80190
-383 "B Goods Producing":347790
-384 "C Services":1452080
-385 "Z No Match":23480
-386 "Total":793190
-387 "A Primary":34420
-388 "B Goods Producing":257410
-389 "C Services":492460
-390 "Z No Match":8900
-391 "Total":2196180
-392 "A Primary":102680
-393 "B Goods Producing":413050
-394 "C Services":1648210
-395 "Z No Match":32240
-396 "Total":1924520
-397 "A Primary":82440
-398 "B Goods Producing":351330
-399 "C Services":1464650
-400 "Z No Match":26100
-401 "Total":795490
-402 "A Primary":35410
-403 "B Goods Producing":256470
-404 "C Services":493430
-405 "Z No Match":10170
-406 "Total":2200540
-407 "A Primary":103430
-408 "B Goods Producing":412480
-409 "C Services":1653150
-410 "Z No Match":31490
-411 "Total":1934570
-412 "A Primary":85050
-413 "B Goods Producing":353690
-414 "C Services":1475870
-415 "Z No Match":19960
-416 "Total":815290
-417 "A Primary":37730
-418 "B Goods Producing":257030
-419 "C Services":510360
-420 "Z No Match":10180
-421 "Total":2222370
-422 "A Primary":106760
-423 "B Goods Producing":416030
-424 "C Services":1665950
-425 "Z No Match":33620
-426 "Total":1948390
-427 "A Primary":87270
-428 "B Goods Producing":356330
-429 "C Services":1484330
-430 "Z No Match":20460
-431 "Total":807380
-432 "A Primary":38940
-433 "B Goods Producing":258930
-434 "C Services":498860
-435 "Z No Match":10640
-436 "Total":2239740
-437 "A Primary":109720
-438 "B Goods Producing":419380
-439 "C Services":1674420
-440 "Z No Match":36220
-441 "Total":1960690
-442 "A Primary":89830
-443 "B Goods Producing":359740
-444 "C Services":1485310
-445 "Z No Match":25810
-446 "Total":806530
-447 "A Primary":41150
-448 "B Goods Producing":260360
-449 "C Services":493140
-450 "Z No Match":11880
-451 "Total":2242450
-452 "A Primary":112090
-453 "B Goods Producing":422140
-454 "C Services":1671130
-455 "Z No Match":37090
-456 "Total":1979180
-457 "A Primary":91990
-458 "B Goods Producing":362260
-459 "C Services":1492830
-460 "Z No Match":32100
-461 "Total":816200
-462 "A Primary":42140
-463 "B Goods Producing":261150
-464 "C Services":502970
-465 "Z No Match":9950
-466 "Total":2251260
-467 "A Primary":110810
-468 "B Goods Producing":419510
-469 "C Services":1683510
-470 "Z No Match":37430
-471 "Total":1985460
-472 "A Primary":92720
-473 "B Goods Producing":362260
-474 "C Services":1497200
-475 "Z No Match":33280
-476 "Total":836150
-477 "A Primary":43190
-478 "B Goods Producing":265660
-479 "C Services":515980
-480 "Z No Match":11310
-481 "Total":2252760
-482 "A Primary":113270
-483 "B Goods Producing":421200
-484 "C Services":1680400
-485 "Z No Match":37890
-486 "Total":1835570
-487 "A Primary":93270
-488 "B Goods Producing":359690
-489 "C Services":1349790
-490 "Z No Match":32820
-491 "Total":860050
-492 "A Primary":45370
-493 "B Goods Producing":269360
-494 "C Services":521470
-495 "Z No Match":23860
-496 "Total":2232110
-497 "A Primary":112530
-498 "B Goods Producing":417910
-499 "C Services":1662520
-500 "Z No Match":39150
-501 "Total":1928010
-502 "A Primary":91570
-503 "B Goods Producing":355150
-504 "C Services":1455140
-505 "Z No Match":26150
-506 "Total":795540
-507 "A Primary":42660
-508 "B Goods Producing":238940
-509 "C Services":497280
-510 "Z No Match":16660
-511 "Total":2133050
-512 "A Primary":104880
-513 "B Goods Producing":396480
-514 "C Services":1593900
-515 "Z No Match":37800
-516 "Total":1844210
-517 "A Primary":85180
-518 "B Goods Producing":333370
-519 "C Services":1409350
-520 "Z No Match":16320
-521 "Total":702100
-522 "A Primary":36660
-523 "B Goods Producing":215360
-524 "C Services":443750
-525 "Z No Match":6340
-526 "Total":2128470
-527 "A Primary":105300
-528 "B Goods Producing":395960
-529 "C Services":1588750
-530 "Z No Match":38460
-531 "Total":1842590
-532 "A Primary":84730
-533 "B Goods Producing":332920
-534 "C Services":1392420
-535 "Z No Match":32530
-536 "Total":769460
-537 "A Primary":38780
-538 "B Goods Producing":234850
-539 "C Services":475340
-540 "Z No Match":20500
-541 "Total":2130680
-542 "A Primary":108060
-543 "B Goods Producing":401880
-544 "C Services":1581010
-545 "Z No Match":39740
-546 "Total":1869550
-547 "A Primary":89440
-548 "B Goods Producing":341930
-549 "C Services":1403550
+1 "Film":2090110
+2 "Agriculture":95150
+3 "Banking":405050
+4 "Manufacturing":1570740
+5 "Railways":19170
+6 "Film":1828160
+7 "Agriculture":79880
+8 "Banking":344320
+9 "Manufacturing":1389220
+10 "Railways":14730
+11 "Film":760760
+12 "Agriculture":39410
+13 "Banking":247780
+14 "Manufacturing":467730
+15 "Railways":5850
+16 "Film":2081300
+17 "Agriculture":90210
+18 "Banking":399670
+19 "Manufacturing":1574020
+20 "Railways":17400
+21 "Film":1821610
+22 "Agriculture":77540
+23 "Banking":341110
+24 "Manufacturing":1389260
+25 "Railways":13700
+26 "Film":781460
+27 "Agriculture":36710
+28 "Banking":248760
+29 "Manufacturing":490660
+30 "Railways":5320
+31 "Film":2097310
+32 "Agriculture":92840
+33 "Banking":403320
+34 "Manufacturing":1582150
+35 "Railways":19000
+36 "Film":1815900
+37 "Agriculture":78170
+38 "Banking":341240
+39 "Manufacturing":1382280
+40 "Railways":14200
+41 "Film":764420
+42 "Agriculture":37580
+43 "Banking":246250
+44 "Manufacturing":474910
+45 "Railways":5690
+46 "Film":2115180
+47 "Agriculture":92510
+48 "Banking":404060
+49 "Manufacturing":1598750
+50 "Railways":19860
+51 "Film":1840800
+52 "Agriculture":77640
+53 "Banking":342170
+54 "Manufacturing":1406540
+55 "Railways":14460
+56 "Film":791650
+57 "Agriculture":38890
+58 "Banking":251440
+59 "Manufacturing":495680
+60 "Railways":5630
+61 "Film":2130250
+62 "Agriculture":92100
+63 "Banking":406040
+64 "Manufacturing":1610150
+65 "Railways":21960
+66 "Film":1861190
+67 "Agriculture":77570
+68 "Banking":344700
+69 "Manufacturing":1422480
+70 "Railways":16450
+71 "Film":773460
+72 "Agriculture":36490
+73 "Banking":251150
+74 "Manufacturing":479500
+75 "Railways":6320
+76 "Film":2098050
+77 "Agriculture":87550
+78 "Banking":401550
+79 "Manufacturing":1586790
+80 "Railways":22160
+81 "Film":1855820
+82 "Agriculture":75510
+83 "Banking":344530
+84 "Manufacturing":1417940
+85 "Railways":17840
+86 "Film":763930
+87 "Agriculture":35580
+88 "Banking":250230
+89 "Manufacturing":471700
+90 "Railways":6420
+91 "Film":2107880
+92 "Agriculture":88060
+93 "Banking":401570
+94 "Manufacturing":1594370
+95 "Railways":23880
+96 "Film":1851010
+97 "Agriculture":75080
+98 "Banking":342580
+99 "Manufacturing":1414410
+100 "Railways":18930
+101 "Film":788770
+102 "Agriculture":36620
+103 "Banking":251580
+104 "Manufacturing":493270
+105 "Railways":7310
+106 "Film":2114400
+107 "Agriculture":88660
+108 "Banking":402330
+109 "Manufacturing":1598080
+110 "Railways":25330
+111 "Film":1847560
+112 "Agriculture":75860
+113 "Banking":343250
+114 "Manufacturing":1407740
+115 "Railways":20710
+116 "Film":769490
+117 "Agriculture":36290
+118 "Banking":248630
+119 "Manufacturing":475600
+120 "Railways":8980
+121 "Film":2119540
+122 "Agriculture":89330
+123 "Banking":401650
+124 "Manufacturing":1601450
+125 "Railways":27100
+126 "Film":1851380
+127 "Agriculture":76170
+128 "Banking":342220
+129 "Manufacturing":1410730
+130 "Railways":22260
+131 "Film":765480
+132 "Agriculture":37220
+133 "Banking":249260
+134 "Manufacturing":470520
+135 "Railways":8480
+136 "Film":2101410
+137 "Agriculture":87580
+138 "Banking":400860
+139 "Manufacturing":1590110
+140 "Railways":22870
+141 "Film":1848220
+142 "Agriculture":75240
+143 "Banking":342960
+144 "Manufacturing":1411050
+145 "Railways":18970
+146 "Film":768350
+147 "Agriculture":35660
+148 "Banking":248370
+149 "Manufacturing":475290
+150 "Railways":9040
+151 "Film":2105750
+152 "Agriculture":88990
+153 "Banking":400690
+154 "Manufacturing":1591780
+155 "Railways":24290
+156 "Film":1843920
+157 "Agriculture":76380
+158 "Banking":341660
+159 "Manufacturing":1405800
+160 "Railways":20080
+161 "Film":768500
+162 "Agriculture":36130
+163 "Banking":249960
+164 "Manufacturing":472290
+165 "Railways":10120
+166 "Film":2123440
+167 "Agriculture":89960
+168 "Banking":402360
+169 "Manufacturing":1603410
+170 "Railways":27710
+171 "Film":1861580
+172 "Agriculture":76080
+173 "Banking":342720
+174 "Manufacturing":1420080
+175 "Railways":22710
+176 "Film":771600
+177 "Agriculture":36060
+178 "Banking":248050
+179 "Manufacturing":474680
+180 "Railways":12810
+181 "Film":2138080
+182 "Agriculture":90930
+183 "Banking":402480
+184 "Manufacturing":1613950
+185 "Railways":30720
+186 "Film":1878500
+187 "Agriculture":76940
+188 "Banking":343050
+189 "Manufacturing":1434160
+190 "Railways":24360
+191 "Film":779310
+192 "Agriculture":35840
+193 "Banking":250750
+194 "Manufacturing":479070
+195 "Railways":13660
+196 "Film":2149340
+197 "Agriculture":91390
+198 "Banking":404350
+199 "Manufacturing":1620190
+200 "Railways":33410
+201 "Film":1873450
+202 "Agriculture":76940
+203 "Banking":343150
+204 "Manufacturing":1425590
+205 "Railways":27780
+206 "Film":781100
+207 "Agriculture":36030
+208 "Banking":250140
+209 "Manufacturing":479850
+210 "Railways":15080
+211 "Film":2131690
+212 "Agriculture":90530
+213 "Banking":400900
+214 "Manufacturing":1609140
+215 "Railways":31130
+216 "Film":1852270
+217 "Agriculture":77740
+218 "Banking":342530
+219 "Manufacturing":1405400
+220 "Railways":26600
+221 "Film":799670
+222 "Agriculture":36780
+223 "Banking":249940
+224 "Manufacturing":500000
+225 "Railways":12950
+226 "Film":2139890
+227 "Agriculture":90340
+228 "Banking":400550
+229 "Manufacturing":1617040
+230 "Railways":31960
+231 "Film":1883740
+232 "Agriculture":77020
+233 "Banking":342350
+234 "Manufacturing":1437210
+235 "Railways":27160
+236 "Film":799520
+237 "Agriculture":35880
+238 "Banking":249910
+239 "Manufacturing":497180
+240 "Railways":16550
+241 "Film":2145780
+242 "Agriculture":91990
+243 "Banking":402040
+244 "Manufacturing":1619840
+245 "Railways":31910
+246 "Film":1889700
+247 "Agriculture":78600
+248 "Banking":342760
+249 "Manufacturing":1441220
+250 "Railways":27120
+251 "Film":796980
+252 "Agriculture":37190
+253 "Banking":252880
+254 "Manufacturing":491010
+255 "Railways":15900
+256 "Film":2142950
+257 "Agriculture":92840
+258 "Banking":403430
+259 "Manufacturing":1611940
+260 "Railways":34740
+261 "Film":1877380
+262 "Agriculture":78470
+263 "Banking":343150
+264 "Manufacturing":1426340
+265 "Railways":29420
+266 "Film":808180
+267 "Agriculture":36020
+268 "Banking":251240
+269 "Manufacturing":502530
+270 "Railways":18390
+271 "Film":2108820
+272 "Agriculture":92050
+273 "Banking":400160
+274 "Manufacturing":1585680
+275 "Railways":30920
+276 "Film":1856420
+277 "Agriculture":78870
+278 "Banking":343440
+279 "Manufacturing":1407590
+280 "Railways":26520
+281 "Film":786700
+282 "Agriculture":35920
+283 "Banking":251530
+284 "Manufacturing":482870
+285 "Railways":16380
+286 "Film":2116540
+287 "Agriculture":93400
+288 "Banking":401400
+289 "Manufacturing":1591690
+290 "Railways":30050
+291 "Film":1852980
+292 "Agriculture":76750
+293 "Banking":343870
+294 "Manufacturing":1407230
+295 "Railways":25130
+296 "Film":788900
+297 "Agriculture":33850
+298 "Banking":253160
+299 "Manufacturing":487160
+300 "Railways":14730
+301 "Film":2145120
+302 "Agriculture":94590
+303 "Banking":403780
+304 "Manufacturing":1616440
+305 "Railways":30310
+306 "Film":1853970
+307 "Agriculture":75730
+308 "Banking":344160
+309 "Manufacturing":1408970
+310 "Railways":25110
+311 "Film":781470
+312 "Agriculture":32360
+313 "Banking":251440
+314 "Manufacturing":483460
+315 "Railways":14200
+316 "Film":2127060
+317 "Agriculture":93460
+318 "Banking":403360
+319 "Manufacturing":1599260
+320 "Railways":30970
+321 "Film":1841710
+322 "Agriculture":74850
+323 "Banking":343820
+324 "Manufacturing":1397250
+325 "Railways":25790
+326 "Film":782680
+327 "Agriculture":30930
+328 "Banking":252120
+329 "Manufacturing":485080
+330 "Railways":14550
+331 "Film":2160420
+332 "Agriculture":95200
+333 "Banking":407000
+334 "Manufacturing":1622670
+335 "Railways":35540
+336 "Film":1876640
+337 "Agriculture":75760
+338 "Banking":346360
+339 "Manufacturing":1426360
+340 "Railways":28150
+341 "Film":786860
+342 "Agriculture":31560
+343 "Banking":253000
+344 "Manufacturing":485570
+345 "Railways":16730
+346 "Film":2156540
+347 "Agriculture":95070
+348 "Banking":404760
+349 "Manufacturing":1626050
+350 "Railways":30660
+351 "Film":1885780
+352 "Agriculture":77260
+353 "Banking":347180
+354 "Manufacturing":1438300
+355 "Railways":23040
+356 "Film":789630
+357 "Agriculture":32640
+358 "Banking":255920
+359 "Manufacturing":488040
+360 "Railways":13020
+361 "Film":2165290
+362 "Agriculture":97720
+363 "Banking":406350
+364 "Manufacturing":1629980
+365 "Railways":31230
+366 "Film":1899370
+367 "Agriculture":79040
+368 "Banking":346540
+369 "Manufacturing":1452760
+370 "Railways":21030
+371 "Film":794240
+372 "Agriculture":34200
+373 "Banking":255880
+374 "Manufacturing":493220
+375 "Railways":10950
+376 "Film":2168890
+377 "Agriculture":99080
+378 "Banking":406540
+379 "Manufacturing":1633950
+380 "Railways":29320
+381 "Film":1903550
+382 "Agriculture":80190
+383 "Banking":347790
+384 "Manufacturing":1452080
+385 "Railways":23480
+386 "Film":793190
+387 "Agriculture":34420
+388 "Banking":257410
+389 "Manufacturing":492460
+390 "Railways":8900
+391 "Film":2196180
+392 "Agriculture":102680
+393 "Banking":413050
+394 "Manufacturing":1648210
+395 "Railways":32240
+396 "Film":1924520
+397 "Agriculture":82440
+398 "Banking":351330
+399 "Manufacturing":1464650
+400 "Railways":26100
+401 "Film":795490
+402 "Agriculture":35410
+403 "Banking":256470
+404 "Manufacturing":493430
+405 "Railways":10170
+406 "Film":2200540
+407 "Agriculture":103430
+408 "Banking":412480
+409 "Manufacturing":1653150
+410 "Railways":31490
+411 "Film":1934570
+412 "Agriculture":85050
+413 "Banking":353690
+414 "Manufacturing":1475870
+415 "Railways":19960
+416 "Film":815290
+417 "Agriculture":37730
+418 "Banking":257030
+419 "Manufacturing":510360
+420 "Railways":10180
+421 "Film":2222370
+422 "Agriculture":106760
+423 "Banking":416030
+424 "Manufacturing":1665950
+425 "Railways":33620
+426 "Film":1948390
+427 "Agriculture":87270
+428 "Banking":356330
+429 "Manufacturing":1484330
+430 "Railways":20460
+431 "Film":807380
+432 "Agriculture":38940
+433 "Banking":258930
+434 "Manufacturing":498860
+435 "Railways":10640
+436 "Film":2239740
+437 "Agriculture":109720
+438 "Banking":419380
+439 "Manufacturing":1674420
+440 "Railways":36220
+441 "Film":1960690
+442 "Agriculture":89830
+443 "Banking":359740
+444 "Manufacturing":1485310
+445 "Railways":25810
+446 "Film":806530
+447 "Agriculture":41150
+448 "Banking":260360
+449 "Manufacturing":493140
+450 "Railways":11880
+451 "Film":2242450
+452 "Agriculture":112090
+453 "Banking":422140
+454 "Manufacturing":1671130
+455 "Railways":37090
+456 "Film":1979180
+457 "Agriculture":91990
+458 "Banking":362260
+459 "Manufacturing":1492830
+460 "Railways":32100
+461 "Film":816200
+462 "Agriculture":42140
+463 "Banking":261150
+464 "Manufacturing":502970
+465 "Railways":9950
+466 "Film":2251260
+467 "Agriculture":110810
+468 "Banking":419510
+469 "Manufacturing":1683510
+470 "Railways":37430
+471 "Film":1985460
+472 "Agriculture":92720
+473 "Banking":362260
+474 "Manufacturing":1497200
+475 "Railways":33280
+476 "Film":836150
+477 "Agriculture":43190
+478 "Banking":265660
+479 "Manufacturing":515980
+480 "Railways":11310
+481 "Film":2252760
+482 "Agriculture":113270
+483 "Banking":421200
+484 "Manufacturing":1680400
+485 "Railways":37890
+486 "Film":1835570
+487 "Agriculture":93270
+488 "Banking":359690
+489 "Manufacturing":1349790
+490 "Railways":32820
+491 "Film":860050
+492 "Agriculture":45370
+493 "Banking":269360
+494 "Manufacturing":521470
+495 "Railways":23860
+496 "Film":2232110
+497 "Agriculture":112530
+498 "Banking":417910
+499 "Manufacturing":1662520
+500 "Railways":39150
+501 "Film":1928010
+502 "Agriculture":91570
+503 "Banking":355150
+504 "Manufacturing":1455140
+505 "Railways":26150
+506 "Film":795540
+507 "Agriculture":42660
+508 "Banking":238940
+509 "Manufacturing":497280
+510 "Railways":16660
+511 "Film":2133050
+512 "Agriculture":104880
+513 "Banking":396480
+514 "Manufacturing":1593900
+515 "Railways":37800
+516 "Film":1844210
+517 "Agriculture":85180
+518 "Banking":333370
+519 "Manufacturing":1409350
+520 "Railways":16320
+521 "Film":702100
+522 "Agriculture":36660
+523 "Banking":215360
+524 "Manufacturing":443750
+525 "Railways":6340
+526 "Film":2128470
+527 "Agriculture":105300
+528 "Banking":395960
+529 "Manufacturing":1588750
+530 "Railways":38460
+531 "Film":1842590
+532 "Agriculture":84730
+533 "Banking":332920
+534 "Manufacturing":1392420
+535 "Railways":32530
+536 "Film":769460
+537 "Agriculture":38780
+538 "Banking":234850
+539 "Manufacturing":475340
+540 "Railways":20500
+541 "Film":2130680
+542 "Agriculture":108060
+543 "Banking":401880
+544 "Manufacturing":1581010
+545 "Railways":39740
+546 "Film":1869550
+547 "Agriculture":89440
+548 "Banking":341930
+549 "Manufacturing":1403550

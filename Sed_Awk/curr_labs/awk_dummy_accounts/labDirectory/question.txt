@@ -1,0 +1,24 @@
+Study the format of the file "sample.txt" which stores information about various user 
+accounts. It includes various dummy user accounts too: these have user ids, but they are 
+not allowed to login. All other users having something other than “/bin/false” as login 
+shell are valid users and are allowed to login. This is indicated by the setting 
+"/bin/false" for the login shell.
+
+Task : Write a bash script, "script.sh", using awk to print the user ids (the first field) of all dummy 
+accounts whose shell is "/bin/false".
+The Sample Input File is -
+UserID;Name;Designation;loginShell
+10001;ajay;manager;/bin/false
+1001;sunil;clerk;/bin/false
+101;varun;manager;Valid
+60123;amit;manager;/bin/false
+401;tarun;peon;Valid
+
+And after running the script the output should be - 
+10001
+1001
+60123
+
+Note : The input field separator is ";". 
+Usage : 
+./script.sh > output.txt

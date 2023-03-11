@@ -7,23 +7,24 @@ and append it to the end of the file("Net : <sum>") and sum for each distinct en
 in the format ("entry_name : <sum>").
 After evaluating all <sum>s and printing them, append "Created by : <first_arg_to_bash_script>" the file.
 Separate the above records from the original records using 5 '='
+
 Eg : 
 Input -> 
 Week_end,Indicator,High_industry,Value
-2019-05-05,Number of paid jobs - 34 days,Total,2090110
-2019-05-05,Number of paid jobs - 34 days,A Primary,95150
-2019-05-05,Number of paid jobs - 34 days,B Goods Producing,405050
+2019-05-05,Number of paid jobs - 34 days,Film,2090110
+2019-05-05,Number of paid jobs - 34 days,Agriculture,95150
+2019-05-05,Number of paid jobs - 34 days,Banking,405050
 
 Output -> 
 Week_end,Indicator,High_industry,Value
-2019-05-05,Number of paid jobs - 34 days,Total,2090110
-2019-05-05,Number of paid jobs - 34 days,A Primary,95150
-2019-05-05,Number of paid jobs - 34 days,B Goods Producing,405050
+2019-05-05,Number of paid jobs - 34 days,Film,2090110
+2019-05-05,Number of paid jobs - 34 days,Agriculture,95150
+2019-05-05,Number of paid jobs - 34 days,Banking,405050
+=====
 Net : <sum of all entries in Value>
-Total : <sum of entries in Value having High_industry as Total>
+Film : <sum of entries in Value having High_industry as Film>
 ...
 Created by : <name given command line arg>
 
-Note : 'Total' is an entry in High_industry, do not confuse it with net total.  
 Usage : 
-script.sh > output.txt
+script.sh abc > output.txt
