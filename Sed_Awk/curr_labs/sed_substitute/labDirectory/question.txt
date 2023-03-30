@@ -1,9 +1,9 @@
 You realize that the entries in "employment.csv" file with "Film" as "High_industry" have to be 
-replaced by "Film&Music". Being familiar with sed, you try out replacing each instance of "film"
+replaced by "Film&Music". Being familiar with sed, you try out replacing each instance of "Film"
 with "Film&Music".
 
 Task: Given the file "employment.csv" you need to use substitute command of sed to replace 
-all instances of "Film" to "Film&Music" in a bash script, "script.sh".
+all instances of "Film" to "Film&Music".
 
 Eg : 
 Input -> 
@@ -29,4 +29,4 @@ Output ->
 ...
 
 Usage : 
-script.sh > output.txt
+sed -f substitute.sed employment.csv > output.txt

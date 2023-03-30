@@ -550,10 +550,8 @@ Week_end,Indicator,High_industry,Value
 2020-01-12,Number of paid jobs - 20 days,Manufacturing,1403550
 =====
 Net : 354478390
-Banking : 36859440
 Agriculture : 7888120
-Manufacturing : 130092910
-High_industry : 0
-Railways : 2381440
+Banking : 36859440
 Film : 177256480
-Created by : sensei
+Manufacturing : 130092910
+Railways : 2381440

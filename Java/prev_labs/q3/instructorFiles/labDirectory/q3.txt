@@ -1,0 +1,6 @@
+In Parse1.java, read each line of the log file.
+You would have to use BufferedReader, String (from the java library) as part of this process.
+Insert the entries which you have read into an appropriate data structure, from the existing collections framework. 
+While inserting, ensure that duplicates are not stored and also each line of log file is sorted (according to String comparison).
+(hint: use something which implements the Set interface or its extension).
+print after following above steps on stdout in same format as given in log.txt

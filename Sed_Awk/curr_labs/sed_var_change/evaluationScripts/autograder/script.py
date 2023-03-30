@@ -28,7 +28,7 @@ result = {
       "message": ""
     }
 
-os.system("./script.sh  test1.cpp > TestCase1/output.txt")
+os.system("sed -r -f var_change.sed TestCase1/test1.cpp > TestCase1/output.txt")
 file1 = open('TestCase1/expected_output.txt', 'r')
 Lines1 = file1.readlines()
 file2 = open('TestCase1/output.txt', 'r')
@@ -66,7 +66,7 @@ result = {
       "message": ""
     }
 
-os.system("./script.sh test2.cpp > TestCase2/output.txt")
+os.system("sed -r -f var_change.sed TestCase2/test2.cpp > TestCase2/output.txt")
 file1 = open('TestCase2/expected_output.txt', 'r')
 Lines1 = file1.readlines()
 file2 = open('TestCase2/output.txt', 'r')
@@ -103,7 +103,7 @@ result = {
       "message": ""
     }
 
-os.system("./script.sh test3.cpp > TestCase3/output.txt")
+os.system("sed -r -f var_change.sed TestCase3/test3.cpp > TestCase3/output.txt")
 file1 = open('TestCase3/expected_output.txt', 'r')
 Lines1 = file1.readlines()
 file2 = open('TestCase3/output.txt', 'r')

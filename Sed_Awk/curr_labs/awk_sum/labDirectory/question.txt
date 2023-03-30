@@ -5,8 +5,8 @@ structured data like csv files.
 Task : Given the data in "employment.csv" you have to find sum of all entries in "Values" 
 and append it to the end of the file("Net : <sum>") and sum for each distinct entry in "High_industry"
 in the format ("entry_name : <sum>").
-After evaluating all <sum>s and printing them, append "Created by : <first_arg_to_bash_script>" the file.
-Separate the above records from the original records using 5 '='
+Separate the abovea above from the original records using 5 '='. See the below example
+(After printing "Net : <value>", all other entries should be in lexicographical order)
 
 Eg : 
 Input -> 
@@ -14,17 +14,21 @@ Week_end,Indicator,High_industry,Value
 2019-05-05,Number of paid jobs - 34 days,Film,2090110
 2019-05-05,Number of paid jobs - 34 days,Agriculture,95150
 2019-05-05,Number of paid jobs - 34 days,Banking,405050
+...
 
 Output -> 
 Week_end,Indicator,High_industry,Value
 2019-05-05,Number of paid jobs - 34 days,Film,2090110
 2019-05-05,Number of paid jobs - 34 days,Agriculture,95150
 2019-05-05,Number of paid jobs - 34 days,Banking,405050
-=====
-Net : <sum of all entries in Value>
-Film : <sum of entries in Value having High_industry as Film>
 ...
-Created by : <name given command line arg>
+=====
+Net : 354478390
+Agriculture : 7888120
+Banking : 36859440
+Film : 177256480
+Manufacturing : 130092910
+Railways : 2381440
 
 Usage : 
-script.sh abc > output.txt
+awk -f sum.awk employment.csv > output.txt

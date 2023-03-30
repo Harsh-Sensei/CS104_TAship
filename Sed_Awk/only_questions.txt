@@ -24,5 +24,4 @@ Q7. Replace the entries in "High_industry" column with double quotes around the 
 Q8. Remove the head of the file(do not print the first line) of "employment.csv". 
 
 
-Q9. Print records(remove the header) till the first occurence of a record having value < 50000.
 

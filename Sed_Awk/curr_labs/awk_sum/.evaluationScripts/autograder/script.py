@@ -28,7 +28,7 @@ result = {
       "message": ""
     }
 
-os.system("./script.sh sensei > TestCase1/output.txt")
+os.system("awk -f sum.awk employment.csv > TestCase1/output.txt")
 file1 = open('TestCase1/expected_output.txt', 'r')
 Lines1 = file1.readlines()
 file2 = open('TestCase1/output.txt', 'r')

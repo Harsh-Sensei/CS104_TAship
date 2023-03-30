@@ -1,0 +1,162 @@
+CUDA_VISIBLE_DEVICES=0
+Loading routings
+tensor([3, 3, 5, 4, 0, 1, 2], dtype=torch.int32)
+/home/sensei/projects/compositionality_analysis_remote/MoE-DG/comp_venv/lib/python3.8/site-packages/torch/utils/data/dataloader.py:563: UserWarning: This DataLoader will create 8 worker processes in total. Our suggested max number of worker in current system is 4, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+kwargs {'distilled': True, 'patch_size': 16, 'embed_dim': 384, 'depth': 12, 'num_heads': 6, 'num_classes': 7, 'moe_layers': ['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'S', 'F', 'F', 'S'], 'mlp_ratio': 4.0, 'num_experts': 6, 'Hierachical': False}
+_IncompatibleKeys(missing_keys=['blocks.11.mlp.experts.w1', 'blocks.11.mlp.experts.w2', 'head.weight', 'head.bias', 'head_dist.weight', 'head_dist.bias'], unexpected_keys=[])
+Using lambda : 10.0
+p dim : torch.Size([64, 6, 7])
+maxarg_for_all_expert : tensor([3, 3, 3, 0, 3, 5, 3, 3, 4, 2, 1, 0, 2, 5, 3, 5, 3, 2, 1, 1, 3, 1, 4, 0,
+        5, 0, 2, 3, 2, 5, 3, 2, 2, 2, 0, 3, 5, 1, 1, 3, 5, 3, 1, 3, 3, 2, 3, 3,
+        3, 1, 0, 2, 1, 2, 5, 5, 3, 0, 5, 3, 4, 2, 5, 5], device='cuda:0')
+correct_exp : tensor([3, 2, 3, 0, 2, 5, 3, 3, 4, 2, 1, 0, 2, 5, 3, 5, 3, 2, 1, 1, 3, 1, 4, 0,
+        4, 0, 2, 3, 2, 5, 3, 2, 2, 2, 2, 3, 5, 1, 1, 3, 5, 3, 5, 3, 3, 2, 3, 3,
+        3, 1, 3, 2, 1, 2, 2, 5, 3, 3, 5, 3, 4, 2, 5, 5], dtype=torch.int32)
+Name : env0_in
+Accuracy : 0.9072605247101891
+Expert Accuracy : 0.9109212934716291
+Confusion matrix : 
+        0      1      2      3      4      5      6
+0  287.0    3.0    9.0    0.0    7.0    0.0    1.0
+1    3.0  174.0    6.0    0.0    4.0    0.0    2.0
+2    3.0    0.0  218.0    0.0    6.0    1.0    0.0
+3    0.0    2.0    5.0  127.0    3.0    5.0    4.0
+4   10.0    1.0    3.0    0.0  147.0    1.0    0.0
+5    1.0    0.0    0.0    0.0    0.0  239.0    1.0
+6   22.0   11.0    7.0    1.0   30.0    0.0  295.0
+p dim : torch.Size([64, 6, 7])
+maxarg_for_all_expert : tensor([2, 5, 3, 3, 0, 5, 3, 0, 5, 3, 5, 3, 3, 2, 3, 3, 5, 3, 1, 3, 2, 5, 4, 0,
+        5, 4, 2, 5, 5, 5, 1, 1, 3, 2, 3, 0, 1, 3, 3, 2, 3, 3, 3, 3, 1, 5, 0, 3,
+        3, 3, 5, 3, 0, 3, 3, 3, 4, 0, 5, 1, 3, 5, 3, 3], device='cuda:0')
+correct_exp : tensor([2, 5, 3, 3, 0, 5, 3, 0, 5, 3, 5, 3, 3, 2, 3, 3, 5, 3, 1, 3, 2, 5, 4, 0,
+        5, 4, 2, 5, 5, 5, 1, 1, 3, 2, 3, 0, 1, 3, 3, 2, 3, 3, 3, 3, 1, 5, 0, 3,
+        3, 3, 5, 3, 0, 3, 3, 3, 4, 0, 5, 1, 3, 5, 3, 3], dtype=torch.int32)
+Name : env1_in
+Accuracy : 0.9984008528784648
+Expert Accuracy : 0.9989339019189766
+Confusion matrix : 
+        0      1      2      3      4      5      6
+0  319.0    0.0    0.0    0.0    0.0    0.0    0.0
+1    1.0  352.0    0.0    0.0    0.0    0.0    0.0
+2    0.0    0.0  276.0    0.0    0.0    0.0    0.0
+3    0.0    0.0    0.0  112.0    0.0    0.0    0.0
+4    1.0    0.0    0.0    0.0  261.0    0.0    0.0
+5    0.0    0.0    0.0    0.0    0.0  231.0    0.0
+6    1.0    0.0    0.0    0.0    0.0    0.0  322.0
+p dim : torch.Size([64, 6, 7])
+maxarg_for_all_expert : tensor([5, 4, 2, 3, 2, 4, 2, 4, 3, 2, 0, 2, 1, 2, 3, 4, 1, 0, 1, 3, 0, 2, 5, 5,
+        3, 3, 2, 2, 0, 1, 3, 4, 1, 1, 3, 5, 2, 3, 2, 3, 4, 4, 3, 3, 3, 3, 1, 2,
+        0, 2, 2, 2, 3, 3, 1, 3, 4, 5, 2, 2, 2, 3, 0, 3], device='cuda:0')
+correct_exp : tensor([5, 4, 2, 3, 2, 4, 2, 4, 3, 2, 0, 2, 1, 2, 3, 4, 1, 0, 1, 3, 0, 2, 5, 5,
+        3, 3, 2, 2, 0, 1, 3, 4, 1, 1, 3, 5, 2, 3, 2, 3, 4, 4, 3, 3, 3, 3, 1, 2,
+        0, 2, 2, 2, 3, 3, 1, 3, 4, 5, 2, 2, 2, 3, 0, 3], dtype=torch.int32)
+Name : env2_in
+Accuracy : 1.0
+Expert Accuracy : 1.0
+Confusion matrix : 
+        0      1      2      3      4      5      6
+0  149.0    0.0    0.0    0.0    0.0    0.0    0.0
+1    0.0  153.0    0.0    0.0    0.0    0.0    0.0
+2    0.0    0.0  149.0    0.0    0.0    0.0    0.0
+3    0.0    0.0    0.0  153.0    0.0    0.0    0.0
+4    0.0    0.0    0.0    0.0  158.0    0.0    0.0
+5    0.0    0.0    0.0    0.0    0.0  221.0    0.0
+6    0.0    0.0    0.0    0.0    0.0    0.0  353.0
+p dim : torch.Size([64, 6, 7])
+maxarg_for_all_expert : tensor([0, 4, 4, 4, 0, 4, 3, 1, 1, 5, 2, 5, 5, 3, 4, 3, 4, 0, 3, 3, 0, 4, 3, 3,
+        0, 5, 5, 5, 5, 0, 3, 0, 5, 4, 0, 3, 3, 4, 3, 4, 5, 4, 3, 4, 3, 0, 3, 3,
+        4, 3, 0, 3, 4, 3, 3, 3, 4, 3, 3, 3, 0, 3, 1, 0], device='cuda:0')
+correct_exp : tensor([0, 4, 4, 4, 0, 4, 3, 1, 1, 5, 2, 5, 5, 3, 4, 3, 4, 0, 3, 3, 0, 4, 3, 3,
+        0, 5, 5, 5, 5, 0, 3, 0, 5, 4, 0, 3, 3, 4, 3, 4, 5, 4, 3, 4, 3, 0, 3, 3,
+        4, 3, 0, 3, 4, 3, 3, 3, 4, 3, 3, 3, 0, 3, 1, 0], dtype=torch.int32)
+Name : env3_in
+Accuracy : 0.9987277353689568
+Expert Accuracy : 0.9990458015267175
+Confusion matrix : 
+        0      1      2      3      4     5      6
+0  617.0    0.0    0.0    0.0    1.0   0.0    0.0
+1    1.0  599.0    0.0    0.0    1.0   0.0    0.0
+2    0.0    0.0  608.0    0.0    1.0   0.0    0.0
+3    0.0    0.0    0.0  474.0    0.0   0.0    0.0
+4    0.0    0.0    0.0    0.0  651.0   0.0    0.0
+5    0.0    0.0    0.0    0.0    0.0  62.0    0.0
+6    0.0    0.0    0.0    0.0    0.0   0.0  129.0
+p dim : torch.Size([64, 6, 7])
+maxarg_for_all_expert : tensor([3, 3, 3, 2, 0, 3, 3, 3, 1, 3, 1, 4, 3, 3, 3, 3, 1, 3, 2, 1, 4, 0, 2, 5,
+        3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 2, 2, 0, 2, 0, 4, 2, 4, 4, 5, 2, 1, 3, 3,
+        0, 0, 1, 1, 5, 3, 0, 2, 3, 4, 2, 0, 0, 0, 0, 5], device='cuda:0')
+correct_exp : tensor([3, 3, 3, 2, 0, 5, 3, 3, 1, 3, 1, 4, 3, 3, 3, 3, 1, 3, 2, 1, 4, 0, 2, 5,
+        3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 2, 2, 0, 2, 3, 4, 2, 4, 4, 5, 2, 1, 3, 3,
+        0, 3, 1, 1, 5, 3, 3, 2, 3, 4, 2, 0, 0, 0, 0, 5], dtype=torch.int32)
+Name : env0_out
+Accuracy : 0.9119804400977995
+Expert Accuracy : 0.9144254278728606
+Confusion matrix : 
+       0     1     2     3     4     5     6
+0  68.0   0.0   1.0   0.0   3.0   0.0   0.0
+1   1.0  58.0   2.0   0.0   4.0   0.0   1.0
+2   3.0   0.0  52.0   0.0   2.0   0.0   0.0
+3   0.0   1.0   0.0  36.0   0.0   1.0   0.0
+4   2.0   2.0   0.0   0.0  35.0   0.0   0.0
+5   0.0   0.0   0.0   0.0   0.0  54.0   0.0
+6   6.0   3.0   1.0   0.0   3.0   0.0  70.0
+p dim : torch.Size([64, 6, 7])
+maxarg_for_all_expert : tensor([5, 5, 3, 3, 4, 3, 5, 0, 3, 3, 2, 3, 3, 3, 3, 3, 2, 2, 3, 3, 2, 5, 0, 1,
+        2, 3, 3, 2, 3, 3, 3, 2, 2, 3, 0, 1, 3, 1, 3, 1, 1, 1, 3, 0, 3, 3, 3, 3,
+        3, 0, 2, 1, 3, 3, 5, 2, 5, 3, 3, 3, 3, 5, 5, 0], device='cuda:0')
+correct_exp : tensor([5, 5, 3, 3, 4, 3, 5, 0, 3, 3, 2, 3, 3, 3, 3, 3, 2, 2, 3, 3, 2, 5, 0, 1,
+        2, 3, 3, 2, 3, 3, 3, 2, 2, 3, 0, 1, 3, 1, 3, 1, 1, 1, 3, 0, 3, 3, 3, 3,
+        3, 0, 2, 1, 3, 3, 5, 2, 5, 3, 3, 3, 3, 5, 5, 0], dtype=torch.int32)
+Name : env1_out
+Accuracy : 0.9764957264957265
+Expert Accuracy : 0.9786324786324786
+Confusion matrix : 
+       0      1     2     3     4     5     6
+0  69.0    0.0   0.0   0.0   0.0   0.0   1.0
+1   1.0  102.0   0.0   0.0   0.0   0.0   1.0
+2   0.0    0.0  69.0   0.0   1.0   0.0   0.0
+3   0.0    0.0   0.0  23.0   0.0   0.0   0.0
+4   3.0    0.0   0.0   0.0  59.0   0.0   0.0
+5   0.0    0.0   0.0   0.0   0.0  56.0   1.0
+6   2.0    0.0   0.0   0.0   0.0   1.0  79.0
+p dim : torch.Size([64, 6, 7])
+maxarg_for_all_expert : tensor([1, 3, 3, 0, 2, 2, 2, 1, 3, 3, 2, 5, 3, 3, 0, 5, 3, 5, 2, 2, 3, 4, 3, 3,
+        0, 2, 0, 2, 0, 2, 2, 3, 1, 5, 1, 2, 2, 3, 3, 5, 1, 2, 4, 0, 2, 3, 2, 2,
+        2, 4, 3, 5, 4, 2, 3, 3, 0, 3, 3, 2, 1, 2, 3, 3], device='cuda:0')
+correct_exp : tensor([1, 3, 3, 0, 2, 2, 2, 1, 3, 3, 2, 5, 3, 3, 0, 5, 3, 0, 2, 2, 3, 4, 3, 3,
+        0, 2, 0, 2, 0, 2, 2, 3, 1, 5, 1, 2, 2, 0, 3, 5, 1, 2, 4, 0, 2, 3, 2, 2,
+        2, 4, 3, 5, 4, 2, 3, 3, 0, 3, 3, 2, 1, 2, 3, 3], dtype=torch.int32)
+Name : env2_out
+Accuracy : 0.9880239520958084
+Expert Accuracy : 0.9910179640718563
+Confusion matrix : 
+       0     1     2     3     4     5     6
+0  40.0   0.0   0.0   0.0   0.0   0.0   0.0
+1   1.0  48.0   0.0   0.0   0.0   0.0   0.0
+2   0.0   0.0  33.0   0.0   0.0   0.0   0.0
+3   0.0   0.0   0.0  33.0   0.0   0.0   0.0
+4   2.0   0.0   1.0   0.0  38.0   0.0   0.0
+5   0.0   0.0   0.0   0.0   0.0  59.0   0.0
+6   0.0   0.0   0.0   0.0   0.0   0.0  79.0
+p dim : torch.Size([64, 6, 7])
+maxarg_for_all_expert : tensor([3, 0, 3, 2, 4, 5, 4, 3, 5, 3, 3, 4, 4, 3, 3, 3, 3, 3, 5, 4, 0, 5, 3, 3,
+        0, 4, 3, 5, 5, 4, 2, 3, 3, 3, 5, 4, 0, 3, 4, 3, 3, 1, 4, 3, 3, 3, 4, 3,
+        3, 4, 5, 5, 3, 5, 0, 0, 2, 0, 3, 3, 0, 3, 0, 0], device='cuda:0')
+correct_exp : tensor([3, 0, 3, 2, 4, 5, 4, 3, 0, 3, 3, 4, 4, 3, 3, 3, 3, 3, 5, 4, 0, 5, 3, 3,
+        0, 4, 3, 5, 5, 4, 2, 3, 3, 3, 5, 4, 0, 3, 4, 3, 3, 1, 4, 3, 3, 3, 4, 3,
+        3, 4, 5, 5, 3, 5, 0, 0, 2, 0, 3, 5, 3, 3, 0, 0], dtype=torch.int32)
+Name : env3_out
+Accuracy : 0.9656050955414013
+Expert Accuracy : 0.975796178343949
+Confusion matrix : 
+        0      1      2      3      4     5     6
+0  145.0    4.0    1.0    0.0    4.0   0.0   0.0
+1    4.0  135.0    0.0    0.0    0.0   0.0   0.0
+2    0.0    2.0  137.0    0.0    5.0   0.0   0.0
+3    0.0    0.0    0.0  134.0    0.0   0.0   0.0
+4    4.0    0.0    2.0    0.0  158.0   0.0   1.0
+5    0.0    0.0    0.0    0.0    0.0  18.0   0.0
+6    0.0    0.0    0.0    0.0    0.0   0.0  31.0
+/home/sensei/projects/compositionality_analysis_remote/MoE-DG/comp_venv/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: libtorch_cuda_cu.so: cannot open shared object file: No such file or directory
+  warn(f"Failed to load image Python extension: {e}")

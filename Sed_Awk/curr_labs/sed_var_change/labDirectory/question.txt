@@ -1,4 +1,4 @@
-After using quickly finishing your C++ script you realize that instead of "pprint"(the function that you have defined) 
+After quickly finishing your C++ script you realize that instead of "pprint"(the function that you have defined) 
 you have written "printf" to yield strings to the standard output(terminal). Seems like you were not using 
 good IDE(seed for following labs) and cannot just find and replace all instances of "printf" with "pprint". 
 
@@ -17,4 +17,4 @@ otherprintf("mikasa");   // printf in substring is not changed
 Note : You need to take filename as argument to bash script
 
 Usage : 
-script.sh <filename> > output.txt
+sed -r -f var_change.sed <filename> > output.txt

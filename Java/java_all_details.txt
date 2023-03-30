@@ -1,0 +1,27 @@
+1) Memoization(store already evaluated values in an array to prevent recalculation) of fibonaaci function
+-> Students would be given code template and would need to fill in functions
+
+Concepts covered:
+Function Overloading, arrays, recursion, conditional statments,strings, exception handling
+
+
+
+2) File reading and finding frequency of words, with special count for pattern matching words.
+-> Again very basic template will be given, but file reading using BuffereReader would be done
+by students
+
+Concepts covered:
+Regex, File handling, hashmap, iterating hashmaps
+
+
+
+3) Creating children classes for a given "interface" of java.
+-> Given an interface students would need to override functions of parent class, overload operators, etc. 
+to create new classes with specified functionalities.
+Eg: Vector(parent interface), Color(child class), Coordinates(child class)
+
+Concepts covered:
+Polymorphism, inheritance, encapsulation, interfaces
+
+
+

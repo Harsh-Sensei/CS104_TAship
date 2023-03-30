@@ -20,4 +20,4 @@ Student ID,First Name,Middle Name,Last Name,Email-ID
 Warning: Take care of spaces when using default awk configuration.
 
 Usage : 
-script.sh > output.txt
+awk -f email.awk students.csv > output.txt
