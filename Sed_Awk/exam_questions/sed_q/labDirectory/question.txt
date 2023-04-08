@@ -1,0 +1,23 @@
+With the aim to fetch student ids and names, a certain someone messed up and
+got the data merged instead of separated by commas. So instead of having columns
+Student ID, First Name, Middle Name, Last Name
+the file just contains
+Student ID
+with all the entries of a single row merged.
+Task : Recover the file back to the format:
+Student ID, First Name, Middle Name, Last Name.
+You can assume "Student id" can only be numeric and any name starts with 
+a capital letter. Assume no other special characters. Separate the fields using commas in the ouput.
+
+Input -> 
+Student ID
+1001AaravRohitPatel
+1002IshaniRaniSharma
+
+Output ->
+Student ID,First Name,Middle Name,Last Name
+1001,Aarav,Rohit,Patel
+1002,Ishani,Rani,Sharma
+
+Usage :
+sed -f names.sed students.csv

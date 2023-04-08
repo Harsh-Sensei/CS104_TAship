@@ -1,0 +1,10 @@
+#!/bin/bash
+awk -F; '
+BEGIN {
+}
+{
+    if($4 == "/bin/false") print $1
+}
+END {
+}
+' < sample.txt
